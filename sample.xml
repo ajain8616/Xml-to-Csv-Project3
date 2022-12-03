@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Body xmlns="https://my.myspace.net/webservice/dummyws/schema.xsd">
+<VarPriceExtractResponse>
+<VarPriceExtract>
+    
+        <item>
+            <Date>2022-11-14</Date>
+            <Maturity>2022-11-15</Maturity>
+            <DBTS_Code>Uniform Singapore Energy Price</DBTS_Code>
+            <Price>275.0</Price>
+            <FileName>dummy</FileName>
+        </item>
+    
+        <item>
+            <Date>2022-11-14</Date>
+            <Maturity>2022-12-15</Maturity>
+            <DBTS_Code>Uniform Singapore Energy Price</DBTS_Code>
+            <Price>275.0</Price>
+            <FileName>dummy</FileName>
+        </item>
+    
+        <item>
+            <Date>2022-11-14</Date>
+            <Maturity>2023-01-15</Maturity>
+            <DBTS_Code>Uniform Singapore Energy Price</DBTS_Code>
+            <Price>295.0</Price>
+            <FileName>dummy</FileName>
+        </item>
+    
+        <item>
+            <Date>2022-11-14</Date>
+            <Maturity>2023-02-15</Maturity>
+            <DBTS_Code>Uniform Singapore Energy Price</DBTS_Code>
+            <Price>295.0</Price>
+            <FileName>dummy</FileName>
+        </item>
+    </VarPriceExtract>
+</VarPriceExtractResponse>
+</soap:Body></soap:Envelope>
